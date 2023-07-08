@@ -49,6 +49,10 @@ table {
 
 
 
+
+
+
+
 body {
     font-family: 'Barlow', sans-serif;
     color: #F2E9E4;
@@ -57,12 +61,11 @@ body {
 section {
     height: 500px;
     background-color: yellow;
-    border: 2px solid black;
 }
 
 .hero {
     height: 100vh;
-    background-color: #22223B;
+    background-color: #F2E9E4;
 }
 
 footer {
@@ -72,30 +75,33 @@ footer {
 
 ul {
     display: flex;
-    justify-content: center;
     align-items: center;
+    font-weight: 200;
 }
 
 .nav-links {
-    padding: 15px 30px;
-}
-
-h1 {
-    font-size: 40px;
+    padding: 15px;
+    border: 2px solid #F2E9E4;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 30px;
+    padding-bottom: 17px;
 }
 
 .hero-text {
-    margin-left: 100px;
-    line-height: 1.5;
+    padding: 0px 30px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
-.hero-text .button {
-    background-color: #F2E9E4;
-    color: #22223B;
-    padding: 5px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    max-width: fit-content;
-    text-align: center;
-    text-justify: center;
+nav {
+    background-color: #22223B;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    font-size: 40px;
 }
